@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="bootstrap/bootstrap-5.0.2-dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <header class="container-fluid d-flex justify-content-center fixed-top">
+      <nav class="navbar container text-capitalize navbar-collapse">
+        <div>
+          <svg
+            class="svg-apple"
+            fill="#fffff"
+            width="30px"
+            height="30px"
+            viewBox="-6.5 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>apple</title>
+            <path
+              d="M13.313 7.219c0.25-0.688 0.406-1.281 0.406-1.844 0-0.094-0.031-0.156-0.031-0.25s-0.031-0.219-0.063-0.344c-1.563 0.344-2.656 1.031-3.344 2.031-0.688 0.969-1.031 2.125-1.063 3.469 0.563-0.063 1.031-0.156 1.375-0.25 0.469-0.156 0.969-0.469 1.469-0.938 0.563-0.563 1-1.25 1.25-1.875zM11.531 10.344c-0.938 0.313-1.594 0.438-1.938 0.438-0.281 0-0.875-0.125-1.844-0.375-0.938-0.281-1.719-0.438-2.406-0.438-1.531 0-2.813 0.656-3.844 1.969-1 1.313-1.5 2.969-1.5 5.031 0 2.219 0.656 4.469 1.969 6.781 1.344 2.313 2.719 3.438 4.063 3.438 0.438 0 1-0.156 1.781-0.438 0.719-0.281 1.344-0.438 1.906-0.438s1.25 0.125 2.031 0.406c0.813 0.281 1.438 0.406 1.906 0.406 1.156 0 2.313-0.875 3.469-2.594 0.375-0.563 0.719-1.156 1-1.719 0.25-0.531 0.469-1.094 0.656-1.625-0.844-0.25-1.563-0.844-2.156-1.719-0.594-0.906-0.906-1.906-0.906-3 0-1.031 0.281-1.938 0.844-2.781 0.344-0.438 0.875-1 1.563-1.594-0.219-0.281-0.469-0.563-0.688-0.781-0.25-0.219-0.469-0.406-0.688-0.563-0.875-0.563-1.844-0.875-2.906-0.875-0.625 0-1.406 0.188-2.313 0.469z"
+            ></path>
+          </svg>
+        </div>
+        <a href="">store</a>
+        <a href="">mac</a>
+        <a href="">ipad</a>
+        <a href="">iphone</a>
+        <a href="">watch</a>
+        <a href="">vision</a>
+        <a href="">tv&home</a>
+        <a href="">airpods</a>
+        <a href="">entertainment</a>
+        <a href="">accessories</a>
+        <a href="">support</a>
+        <a href="" class="bg-trans">
+          <svg class="svg-apple"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="25px"
+            height="25px"
+            viewBox="0 0 121.702 122.881"
+            enable-background="new 0 0 121.702 122.881"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                d="M53.617,0c14.806,0,28.21,6.001,37.913,15.705c9.703,9.703,15.704,23.107,15.704,37.913 c0,10.832-3.213,20.914-8.737,29.346l23.205,25.291l-16.001,14.627L83.322,98.258c-8.503,5.67-18.718,8.977-29.705,8.977 c-14.806,0-28.21-6.002-37.913-15.705C6.001,81.826,0,68.422,0,53.617c0-14.806,6.001-28.21,15.704-37.913 C25.407,6.001,38.812,0,53.617,0L53.617,0z M87.3,19.934c-8.619-8.62-20.528-13.951-33.683-13.951s-25.063,5.332-33.683,13.951 c-8.62,8.62-13.952,20.529-13.952,33.683s5.332,25.063,13.952,33.682c8.62,8.621,20.528,13.951,33.683,13.951 S78.681,95.92,87.3,87.299c8.62-8.619,13.951-20.527,13.951-33.682S95.92,28.554,87.3,19.934L87.3,19.934z"
+              />
+            </g>
+          </svg>
+        </a>
+        <a href="">
+          <svg
+            class="svg-apple"
+            width="25px"
+            height="25px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.74157 20.5545C4.94119 22 7.17389 22 11.6393 22H12.3605C16.8259 22 19.0586 22 20.2582 20.5545M3.74157 20.5545C2.54194 19.1091 2.9534 16.9146 3.77633 12.5257C4.36155 9.40452 4.65416 7.84393 5.76506 6.92196M3.74157 20.5545C3.74156 20.5545 3.74157 20.5545 3.74157 20.5545ZM20.2582 20.5545C21.4578 19.1091 21.0464 16.9146 20.2235 12.5257C19.6382 9.40452 19.3456 7.84393 18.2347 6.92196M20.2582 20.5545C20.2582 20.5545 20.2582 20.5545 20.2582 20.5545ZM18.2347 6.92196C17.1238 6 15.5361 6 12.3605 6H11.6393C8.46374 6 6.87596 6 5.76506 6.92196M18.2347 6.92196C18.2347 6.92196 18.2347 6.92196 18.2347 6.92196ZM5.76506 6.92196C5.76506 6.92196 5.76506 6.92196 5.76506 6.92196Z"
+              stroke="#1C274C"
+              stroke-width="1.5"
+            />
+            <path
+              opacity="0.5"
+              d="M9 6V5C9 3.34315 10.3431 2 12 2C13.6569 2 15 3.34315 15 5V6"
+              stroke="#1C274C"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <a href="" class="container-fluid row bg-gain div-2">
+      <div class="text-2 mb-5">
+        <h1>Apple Event</h1>
+        <h2>Watch Online On 9/9 at 10 a.m. pt.</h2>
+        <div class="mt-2 btn-div">
+          <button class="btn-1">Learn more</button>
+        </div>
+      </div>
+    </a>
+    <a href="" class="container-fluid row bg-gain div-3">
+      <div class="text-4">
+        <h1>MacBook Air</h1>
+        <h2>Lean.Mean.M3 machine</h2>
+        <div class="mt-2 btn-div">
+          <button class="btn-1">Learn more</button>
+          <button class="btn-2">Buy</button>
+        </div>
+      </div>
+    </a>
+    <a href="" class="container-fluid row div-4 bg-dark">
+      <div class="text-5">
+        <h1>iPhone</h1>
+        <h2>Our most powerfull cameras yet.</h2>
+        <h2>Ultrafast chips. And USB-C</h2>
+        <div class="mt-2 btn-div">
+          <button class="btn-5">Learn more</button>
+          <button class="btn-5-2">Buy iPhone</button>
+        </div>
+      </div>
+    </a>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 brdr">
+          <a href="" class="row div-6 bg-dark">
+            <div class="text-6-9 card6">
+              <h1>iPad Pro</h1>
+              <h2>Ubelievably thin. incredibly powerfull</h2>
+              <div class="mt-2 btn-div">
+                <button class="btn-6">Learn more</button>
+                <button class="btn-6-2">Buy</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 brdr">
+          <a href="" class="row div-7 bg-dark">
+            <div class="text-9">
+              <h1>Apple Intelligence</h1>
+              <h2>AI is the reset of us.</h2>
+              <h2>Coming in beta this fall</h2>
+              <div class="mt-2 btn-div">
+                <button class="btn-6-1">Learn more</button>
+                <button class="btn-6-2-1">Watch the films</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 brdr">
+          <a href="" class="row div-8 bg-dark">
+            <div class="text-9 justify-content-end mb-5">
+              <h1>Vision Pro</h1>
+              <h2>The era of spatial computing is here.</h2>
+              <div class="mt-2 btn-div">
+                <button class="btn-6">Learn more</button>
+                <button class="btn-6-2">Buy</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 brdr">
+          <a href="" class="row div-9 bg-dark">
+            <div class="text-6-9 card6">
+              <h1>WATCH</h1>
+              <h2 class="text-danger">S E R I E S 9</h2>
+              <h2>Smarter.Brighter.Mighter</h2>
+              <div class="mt-2 btn-div">
+                <button class="btn-6">Learn more</button>
+                <button class="btn-6-2">Buy</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 brdr">
+          <a href="" class="row div-10 bg-dark">
+            <div class="text-6">
+              <h1>Card</h1>
+              <h2>Get upto 3% daily cash back</h2>
+              <h2>With every purchase</h2>
+              <div class="mt-2 btn-div">
+                <button class="btn-6">Learn more</button>
+                <button class="btn-6-2">Apply now</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 brdr">
+          <a href="" class="row div-11 bg-dark">
+            <div class="text-6">
+              <h1>Trade In</h1>
+              <h2>Get $170-$620 in credit when you</h2>
+              <h2>trade in iphone 11 or higher.<sup>3</sup></h2>
+              <div class="mt-2 btn-div">
+                <button class="btn-6">Get your estimate</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/silder1.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider5.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider6.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-4 bg-gain text-capitalize">
+      <div class="row d-flex justify-content-center p-footer">
+        <p class="w-75 mt-5">
+          * Available for Qualified Purchasers only. Qualified Purchasers
+          receive an Apple Gift Card when they purchase an Eligible Product at a
+          Qualifying Location through September 30, 2024. Gift card values may
+          vary by Eligible Product. Only one Apple Gift Card per Eligible
+          Product per Qualified Purchaser. Offer subject to availability. While
+          supplies last. Qualified Purchasers shall receive a discount equal to
+          the value of the Apple Gift Card off the price of the Eligible
+          Product, but will be charged for all items in their cart, including
+          the Apple Gift Card. Important notice regarding the checkout receipt
+          and monthly statement for Apple Card Monthly Installments (ACMI)
+          purchases with this promotion: Qualified Purchasers selecting ACMI (a
+          0% APR payment option available only in the U.S.) as payment type at
+          checkout shall receive a discount equal to the value of the Apple Gift
+          Card off the price of the Eligible Product. This will result in one
+          ACMI installment plan over 12 months for the Eligible Product
+          discounted by the instant credit, and a second ACMI installment plan
+          over 12 months for the full price of the Apple Gift Card. The total
+          combined amount charged over the two separate ACMI installment plans
+          will reflect the original full retail price of the Eligible Product.
+          Separately, Qualified Purchasers will receive and be charged for the
+          Apple Gift Card in the amount of the applicable discount off the
+          Eligible Product. Apple Card Monthly Installments (ACMI) is a 0% APR
+          payment option that is only available if you select it at checkout in
+          the U.S. for eligible products purchased at Apple Store locations,
+          apple.com, the Apple Store app, or by calling 1-800-MY-APPLE, and is
+          subject to credit approval and credit limit. See
+          support.apple.com/kb/HT211204 for more information about eligible
+          products. APR ranges may vary based on when you accepted an Apple
+          Card. Cardholders who accept an Apple Card on and or after August 1,
+          2024: Variable APRs for Apple Card, other than ACMI, range from 19.24%
+          to 29.49% based on creditworthiness. Rates as of August 1, 2024.
+          Existing cardholders: See your Customer Agreement for applicable rates
+          and fee. If you buy an ACMI-eligible product by choosing to pay in
+          full with Apple Card (instead of using ACMI), that purchase is subject
+          to the Apple Card variable APR, not 0% APR. Taxes and shipping on ACMI
+          purchases are subject to the variable APR, not 0% APR. When you buy an
+          iPhone with ACMI, you’ll need to select AT&T, T-Mobile, or Verizon as
+          your carrier when you check out. An iPhone purchased with ACMI is
+          always unlocked, so you can switch carriers at any time. ACMI is not
+          available for purchases made online at the following special stores:
+          Apple Employee Purchase Plan; participating corporate Employee
+          Purchase Programs; Apple at Work for small businesses; Government and
+          Veterans and Military Purchase Programs; or on refurbished devices.
+          The last month’s payment for each product will be the product’s
+          purchase price, less all other payments at the monthly payment amount.
+          ACMI financing is subject to change at any time for any reason,
+          including but not limited to installment term lengths and eligible
+          products. See support.apple.com/kb/HT211204 for information about
+          upcoming changes to ACMI financing. See the Apple Card Customer
+          Agreement for more information about ACMI financing. Apple Card is
+          issued by Goldman Sachs Bank USA, Salt Lake City Branch. Available for
+          qualifying applicants in the United States. If you reside in the U.S.
+          territories, please call Goldman Sachs at 877-255-5923 with questions
+          about accessing this offer or applying for Apple Card. This offer
+          cannot be combined with the Apple Employee Purchase Plan or business
+          loyalty pricing. Additional restrictions apply. View full terms and
+          conditions of offer here.
+        </p>
+        <p class="w-75">
+          1. Apple Intelligence will be available in beta on iPhone 15 Pro,
+          iPhone 15 Pro Max, and iPad and Mac with M1 and later, with Siri and
+          device language set to U.S. English, as part of iOS 18, iPadOS 18, and
+          macOS Sequoia this fall. <br />
+          2. Trade-in values will vary based on the condition, year, and
+          configuration of your eligible trade-in device. Not all devices are
+          eligible for credit. You must be at least 18 years old to be eligible
+          to trade in for credit or for an Apple Gift Card. Trade-in value may
+          be applied toward qualifying new device purchase, or added to an Apple
+          Gift Card. Actual value awarded is based on receipt of a qualifying
+          device matching the description provided when estimate was made. Sales
+          tax may be assessed on full value of a new device purchase. In-store
+          trade-in requires presentation of a valid photo ID (local law may
+          require saving this information). Offer may not be available in all
+          stores, and may vary between in-store and online trade-in. Some stores
+          may have additional requirements. Apple or its trade-in partners
+          reserve the right to refuse or limit quantity of any trade-in
+          transaction for any reason. More details are available from Apple’s
+          trade-in partner for trade-in and recycling of eligible devices.
+          Restrictions and limitations may apply.
+        </p>
+        <p class="w-75">
+          Available in the U.S. on apple.com, in the Apple Store app, and at
+          Apple Stores.
+        </p>
+        <p class="w-75">
+          To access and use all Apple Card features and products available only
+          to Apple Card users, you must add Apple Card to Wallet on an iPhone or
+          iPad that supports and has the latest version of iOS or iPadOS. Apple
+          Card is subject to credit approval, available only for qualifying
+          applicants in the United States, and issued by Goldman Sachs Bank USA,
+          Salt Lake City Branch.
+        </p>
+        <p class="w-75">
+          If you reside in the U.S. territories, please call Goldman Sachs at
+          877-255-5923 with questions about Apple Card.
+        </p>
+        <p class="w-75">
+          Learn more about how Apple Card applications are evaluated at
+          support.apple.com/kb/HT209218.
+        </p>
+        <p class="w-75">A subscription is required for Apple TV+</p>
+        <p class="w-75">
+          A subscription is required for Apple Arcade, Apple Fitness+, and Apple
+          Music.
+        </p>
+      </div>
+      <div class="container vh-100">
+        <hr />
+        <div class="row d-flex justify-content-center vh-100 gap-2 bg-gain">
+          <div class="col-2">
+            <h5 class="h-5 mt-3">Shop and Learn</h5>
+            <div class="div-a">
+              <a href="">Store</a>
+            </div>
+            <div class="div-a">
+              <a href="">Mac</a>
+            </div>
+            <div class="div-a">
+              <a href="">Pad</a>
+            </div>
+            <div class="div-a">
+              <a href="">iPhone</a>
+            </div>
+            <div class="div-a">
+              <a href="">Watch</a>
+            </div>
+            <div class="div-a">
+              <a href="">Vision</a>
+            </div>
+            <div class="div-a">
+              <a href="">Airpods</a>
+            </div>
+            <div class="div-a">
+              <a href="">TV&Home</a>
+            </div>
+            <div class="div-a">
+              <a href="">AirTags</a>
+            </div>
+            <div class="div-a">
+              <a href="">Accessories</a>
+            </div>
+            <div class="div-a">
+              <a href="">Gifts Card</a>
+            </div>
+            <div>
+              <h5 class="h-5 mt-5">Apple Wallet</h5>
+              <div class="div-a">
+                <a href="">Wallet</a>
+              </div>
+              <div class="div-a">
+                <a href="">Apple Card</a>
+              </div>
+              <div class="div-a">
+                <a href="">Apple Pay</a>
+              </div>
+              <div class="div-a">
+                <a href="">Apple Cash</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <h5 class="h-5 mt-3">Account</h5>
+            <div class="div-a">
+              <a href="">Manage Your Apple ID</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Store Account </a>
+            </div>
+            <h5 class="h-5 mt-4">Entertainment</h5>
+            <div class="div-a">
+              <a href="">Apple One</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple TV+ </a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Music</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Arcade</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Fitness+</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple New+</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Podcast</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Books</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Store</a>
+            </div>
+          </div>
+          <div class="col-2">
+            <h5 class="h-5 mt-3">Apple Store</h5>
+            <div class="div-a">
+              <a href="">Find a Store</a>
+            </div>
+            <div class="div-a">
+              <a href="">Genius Bar</a>
+            </div>
+            <div class="div-a">
+              <a href="">Today at Apple</a>
+            </div>
+            <div class="div-a">
+              <a href="">Group Reservations</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Camp</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Store App</a>
+            </div>
+            <div class="div-a">
+              <a href="">Certified Refurbished</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Trade In</a>
+            </div>
+            <div class="div-a">
+              <a href="">Financing</a>
+            </div>
+            <div class="div-a">
+              <a href="">Carrier Deals at Apple</a>
+            </div>
+            <div class="div-a">
+              <a href="">Order Status</a>
+            </div>
+            <div class="div-a">
+              <a href="">Shopping Help</a>
+            </div>
+          </div>
+          <div class="col-2">
+            <h5 class="h-5 mt-3">For Business</h5>
+            <div class="div-a">
+              <a href="">Apple and Business</a>
+            </div>
+            <div class="div-a">
+              <a href="">Shop for Business</a>
+            </div>
+            <h5 class="h-5 mt-3">For Education</h5>
+            <div class="div-a">
+              <a href="">Apple and Education</a>
+            </div>
+            <div class="div-a">
+              <a href="">Shop for K-12</a>
+            </div>
+            <div class="div-a">
+              <a href="">Shop for College</a>
+            </div>
+            <h5 class="h-5 mt-3">For Healthcare</h5>
+            <div class="div-a">
+              <a href="">Apple in Healthcare</a>
+            </div>
+            <div class="div-a">
+              <a href="">Mac in Healthcare </a>
+            </div>
+            <div class="div-a">
+              <a href="">Health on Apple Watch</a>
+            </div>
+            <div class="div-a">
+              <a href="">Health Records on iPhone and iPad</a>
+            </div>
+            <h5 class="h-5 mt-3">For Government</h5>
+            <div class="div-a">
+              <a href="">Shop for Government</a>
+            </div>
+            <div class="div-a">
+              <a href="">Shop for Veterans and Military</a>
+            </div>
+            <div class="div-a">
+              <a href="">Health on Apple Watch</a>
+            </div>
+          </div>
+          <div class="col-2">
+            <h5 class="h-5 mt-3">Apple Values</h5>
+            <div class="div-a">
+              <a href="">Accessibility</a>
+            </div>
+            <div class="div-a">
+              <a href="">Education </a>
+            </div>
+            <div class="div-a">
+              <a href="">Environment</a>
+            </div>
+            <div class="div-a">
+              <a href="">Inclusion and Diversity </a>
+            </div>
+            <div class="div-a">
+              <a href="">Privacy</a>
+            </div>
+            <div class="div-a">
+              <a href="">Racial Equity and Justice</a>
+            </div>
+            <div class="div-a">
+              <a href="">Supply Chain</a>
+            </div>
+            <h5 class="h-5 mt-3">About Apple</h5>
+            <div class="div-a">
+              <a href="">Newsroom</a>
+            </div>
+            <div class="div-a">
+              <a href="">Apple Leadership</a>
+            </div>
+            <div class="div-a">
+              <a href="">Career Opportunities</a>
+            </div>
+            <div class="div-a">
+              <a href="">Investors</a>
+            </div>
+            <div class="div-a">
+              <a href="">Ethics & Compliance</a>
+            </div>
+            <div class="div-a">
+              <a href="">Events</a>
+            </div>
+            <div class="div-a">
+              <a href="">Contact Apple</a>
+            </div>
+          </div>
+          <h5 class="h-5 mt-3 last-a">
+            More ways to shop: <a href="">Find an Apple Store</a> or
+            <a href="">other retailer</a> near you. Or call 1-800-MY-APPLE.
+          </h5>
+          <hr />
+          <div class="row gx-1 mb-4">
+            <div class="col-4">
+              <p>Copyright © 2024 Apple Inc. All rights reserved</p>
+            </div>
+            <div class="col-7">
+              <div class="row">
+                <div class="col-2 last-p border-start">
+                  <p>Privacy Policy</p>
+                </div>
+                <div class="col-2 last-p border-start">
+                  <p>Terms of Use</p>
+                </div>
+                <div class="col-3 last-p border-start">
+                  <p>Sales and Refunds</p>
+                </div>
+                <div class="col-1 last-p border-start">
+                  <p>Legal</p>
+                </div>
+                <div class="col-2 last-p border-start">
+                  <p>Site Map</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">Unitedstate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="bootstrap/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</html>
